@@ -1,0 +1,12 @@
+#logo1 {
+  font-size: 80px;
+  height: 80px;
+  width: auto;
+  margin-left: 185px;
+}
+
+#app-navbar {
+  background: black;
+  border-bottom: solid red 2.5px ;
+}
+
