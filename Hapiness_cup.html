@@ -1,0 +1,137 @@
+<!DOCTYPE html5>
+<html>
+    <title> Wagner|</title>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+                <link class="aba" rel="sortcut icon" href="aba.jpg" type="image/gif" />
+                <link rel="stylesheet" href="bootstrap.min.css">
+                <link rel="stylesheet" href="head.css">
+                <link rel="stylesheet" href="Navigation-Menu.css">
+                <link rel="stylesheet" href="styles.css">
+                <link rel="stylesheet" href="css/Bio.css">
+                <link rel="stylesheet" href="ionicons.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+                <script type="text/javascript">
+                    t=1000; 
+                    tr=300; 
+                    title={
+                        tag:[' Web Developer',' JavaScript',' CSS',' PHP',' Bootstrap'],
+                        temp:[1400,1300,1100,,,,,,,,,,2000]
+                    };
+                    b=title.tag;
+                    c=title.temp;
+                    d=b.length;
+                    D=document;
+                    e=-1;
+                    p=D.title.lastIndexOf('|');
+                    if(p>-1)p=D.title.substr(0,p+2);else p='';
+                    function titulo(){
+                        e++;
+                        if(e==d)e=0;
+                        et(b[e]);
+                    }
+                    function t2(b,f){
+                        var i=b.substr(0,--f);
+                        D.title=p+i+'_';
+                        if(f>=0)setTimeout('t2("'+i+'",'+f+')',50);
+                        else setTimeout('titulo()',tr);
+                    }
+                    function et(b,i){
+                        var l=b.length,f=(i)?i:0,i=b.substr(0,f)+'_';
+                        D.title=p+i;
+                        f++;
+                        if(f<=l)setTimeout('et("'+b+'",'+f+')',50);
+                        else setTimeout('t2("'+b+'","'+l+'")',c[e]||t);
+                    }
+                    titulo()
+                </script>
+        </head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container"><a class="navbar-brand" href="#"><img id="logo1" src="p1.PNG"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#app-navbar">Inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#about">Sobre mim</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#jobs">Trabalhos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#footer">Contato</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="conteudo">
+        <br/>
+        <br/>
+        <br/>
+        <main class="page projects-page">
+            <section class="portfolio-block projects-cards">
+                <div class="container">
+                    <div class="heading">
+                        <h2 class="title-1" id="jobs">Happiness Cup - Trabalho de designer gráfico</h2>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><img class="card-img-top scale-on-hover t-2" src="h1.png" alt="Card Image">
+                                <div class="card-body">
+                                    <h6 class="letra">LOGO DA EMPRESA</h6>
+                                    <p class="text-muted card-text letra2">Logo da empresa refeito totalmente, com ideia de acordo com a satisfaçâo do cliente </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><img class="card-img-top scale-on-hover t-2" src="h2.png" alt="Card Image">
+                                <div class="card-body">
+                                    <h6 class="letra">CARDÁPIO DA EMPRESA </h6>
+                                    <p class="text-muted card-text letra2">Cardapio feito de acordo com os dados que o cliente forneceu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><img class="card-img-top scale-on-hover t-2" src="h3.png" alt="Card Image">
+                                <div class="card-body">
+                                    <h6 class="letra">CARDÁPIO DA EMPRESA</h6>
+                                    <p class="text-muted card-text letra2">Cardapio feito de acordo com os dados que o cliente forneceu.</p>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        <br/>
+        <br/>
+        <br/>
+        <section id="about" class=" text-black mb-0">
+            <div class="container">
+                <h2 class="text-uppercase text-center text-black letra" > Faça seu orçamento sem compromisso !</h2>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="lead letra2">Acesse o link abaixo com o logo do whatsapp, para ir direto a uma conversa comigo.</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="lead letra2">Orçamento sem compromisso, com total satisfaçâo do cliente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <br/>
+        <br/>
+        <br/>
+        <div id="footer"> 
+            <a href="https://www.linkedin.com/in/wagner-giraud-pcd-a743b6196/" target="_blank"><img id="linkedin" src="linkedin.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=5513996412007" target="_blank"><img id="whats" src="whats.png"></a>
+        </div>
+    </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="freelancer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="theme.js"></script>    
+</body>
+
+</html>

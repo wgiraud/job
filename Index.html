@@ -1,0 +1,145 @@
+<!DOCTYPE html5>
+<html>
+    <title> Wagner|</title>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+                <link class="aba" rel="sortcut icon" href="aba.jpg" type="image/gif" />
+                <link rel="stylesheet" href="bootstrap.min.css">
+                <link rel="stylesheet" href="head.css">
+                <link rel="stylesheet" href="Navigation-Menu.css">
+                <link rel="stylesheet" href="styles.css">
+                <link rel="stylesheet" href="css/Bio.css">
+                <link rel="stylesheet" href="ionicons.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+                <script type="text/javascript">
+                    t=1000; 
+                    tr=300; 
+                    title={
+                        tag:[' Web Developer',' JavaScript',' CSS',' PHP',' Bootstrap'],
+                        temp:[1400,1300,1100,,,,,,,,,,2000]
+                    };
+                    b=title.tag;
+                    c=title.temp;
+                    d=b.length;
+                    D=document;
+                    e=-1;
+                    p=D.title.lastIndexOf('|');
+                    if(p>-1)p=D.title.substr(0,p+2);else p='';
+                    function titulo(){
+                        e++;
+                        if(e==d)e=0;
+                        et(b[e]);
+                    }
+                    function t2(b,f){
+                        var i=b.substr(0,--f);
+                        D.title=p+i+'_';
+                        if(f>=0)setTimeout('t2("'+i+'",'+f+')',50);
+                        else setTimeout('titulo()',tr);
+                    }
+                    function et(b,i){
+                        var l=b.length,f=(i)?i:0,i=b.substr(0,f)+'_';
+                        D.title=p+i;
+                        f++;
+                        if(f<=l)setTimeout('et("'+b+'",'+f+')',50);
+                        else setTimeout('t2("'+b+'","'+l+'")',c[e]||t);
+                    }
+                    titulo()
+                </script>
+        </head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container"><a class="navbar-brand" href="#"><img id="logo1" src="p1.PNG"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#app-navbar">Inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#about">Sobre mim</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#jobs">Trabalhos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#footer">Contato</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="conteudo">
+        <header class="text-black text-center" >
+            <div class="container"><img class="img-fluid" id="a1" src="wgr.jPEG">
+                <br/>
+                <br/>
+                <h1>Wagner Giraud</h1>
+                <h2 class="font-weight-light mb-0"> Desenvolvedor Web Designer Gráfico</h2>
+            </div>
+        </header>
+        <br/>
+        <br/>
+        <br/>
+        <main class="page projects-page">
+            <section class="portfolio-block projects-cards">
+                <div class="container">
+                    <div class="heading">
+                        <h2 class="title-1" id="jobs">Trabalhos Recentes</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><a href="Hapiness_cup.html"><img class="card-img-top scale-on-hover t-2" src="h1.PNG" alt="Card Image"></a>
+                                <div class="card-body">
+                                    <h6 class="letra">Happiness cup</h6>
+                                    <p class="text-muted card-text">Trabalho gráfico finalizado em serviço de uma conhecida doceria gourmet da cidade de bertioga .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><img class="card-img-top scale-on-hover t-2" src="p1.PNG" alt="Card Image">
+                                <div class="card-body">
+                                    <h6 class="letra">Lorem Ipsum</h6>
+                                    <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0"><img class="card-img-top scale-on-hover t-2" src="p1.PNG" alt="Card Image">
+                                <div class="card-body">
+                                    <h6 class="letra">Lorem Ipsum</h6>
+                                    <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        <br/>
+        <br/>
+        <br/>
+        <section id="about" class=" text-black mb-0">
+            <div class="container">
+                <h2 class="text-uppercase text-center text-black" id="about">Sobre mim</h2>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="lead">Eu me chamo Wagner Giraud, sou estudante de Análise e desenvolvimento de sistemas, sou deficiente auditivo bilateral, oralizado e semi-fluente em libras, morador da cidade Bertioga, litoral de São Paulo. A cada nova aplicação o portfolio é atualizado.</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="lead ">Atualmente sou focado na parte de desenvolvimento web, fullstack e designer grafico, como um eterno aprendiz, estudo diariamente as linguagens: html5, css3, bootstrap4, JavaScript, php,nodejs e o bom e velho java para aplicações desktop.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <br/>
+        <br/>
+        <br/>
+        <div id="footer"> 
+            <a href="https://www.linkedin.com/in/wagner-giraud-pcd-a743b6196/" target="_blank"><img id="linkedin" src="linkedin.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=5513996412007" target="_blank"><img id="whats" src="whats.png"></a>
+        </div>
+    </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="freelancer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="theme.js"></script>
+    
+</body>
+
+</html>
